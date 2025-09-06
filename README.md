@@ -175,5 +175,10 @@ split_notebooks/
 
 ```bash
 # Run all notebooks in sequence
-for nb in *.ipynb; do jupyter nbconvert --to notebook --execute "$nb"; done
+ls [0-9]*.ipynb 2>/dev/null | sort -V | while read nb; do
+    echo "Executing: $nb"
+    jupyter nbconvert --to notebook --execute --inplace "$nb"
+done
 ```
+
+or use the provided `run_notebooks.py` script for more control
