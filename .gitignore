@@ -222,3 +222,6 @@ __marimo__/
 zip/
 *.zip
 *.tar.gz
+
+# Backup files
+*.backup
