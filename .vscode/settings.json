@@ -1,0 +1,65 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "explorer.decorations.badges": false,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.shellIntegration.history": 1000,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.cursorStyle": "line",
+    "editor.fontFamily": "Fira Code",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "smooth",
+    "editor.fontSize": 12,
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 0,
+    // Enables font ligatures
+    "editor.fontLigatures": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "npm-intellisense.scanDevDependencies": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "terminal.integrated.fontFamily": "JetBrainsMono NFM",
+    "terminal.integrated.fontSize": 12,
+    "terminal.external.windowsExec": "pwsh.exe",
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": false
+    },
+    "database-client.autoSync": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.mouseWheelZoom": true,
+    "files.autoSaveWhenNoErrors": true,
+    "python.analysis.ignore": [
+        "*"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "strictListInference": "none",
+        "strictDictionaryInference": "none",
+        "strictSetInference": "none",
+        "analyzeUnannotatedFunctions": "none",
+        "strictParameterNoneValue": "none",
+        "enableTypeIgnoreComments": "none",
+        "reportMissingModuleSource": "none",
+        "reportMissingImports": "none",
+        // reportUndefinedVariable": "none"
+    },
+}
